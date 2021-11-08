@@ -1,0 +1,218 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #252430;
+}
+
+/*===== Nav =====*/
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#nav li {
+  float: left;
+  display: block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#nav li:hover {
+  background-color: #ff704d;
+}
+
+#nav #addGroup:hover {
+  background-color: green;
+}
+
+#nav #removeGroup:hover {
+  background-color: red;
+}
+
+/*===== Body =====*/
+.header {
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 90%;
+  min-width: 15%;
+  margin: 0 auto;
+}
+
+.wrapper ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.wrapper li {
+  padding: 4px 10px;
+  margin: 3px auto;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.header {
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 8px 0;
+  font-size: 1.5rem;
+}
+
+.list,
+.defaultList {
+  min-width: 240px;
+  border-radius: 20px;
+  margin: 12px;
+  background-color: #fff;
+}
+/*===== Inputs =====*/
+
+input[type="text"] {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"]:focus {
+  background-color: lightgoldenrodyellow;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+input[type="button"] {
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 100%;
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*===== Header Colors =====*/
+.p {
+  background-color: gray;
+}
+
+.group1 {
+  background-color: #e6194b;
+}
+
+.group2 {
+  background-color: #3cb44b;
+}
+
+.group3 {
+  background-color: #ffe119;
+}
+
+.group4 {
+  background-color: #4363d8;
+}
+
+.group5 {
+  background-color: #f58231;
+}
+
+.group6 {
+  background-color: #42d4f4;
+}
+
+.group7 {
+  background-color: #f032e6;
+}
+
+.group8 {
+  background-color: #800000;
+}
+
+.group9 {
+  background-color: #aaffc3;
+}
+
+.group10 {
+  background-color: #911eb4;
+}
+
+/*===== Role Colors =====*/
+.tank {
+  font-weight: bold;
+  background-color: yellow;
+  color: white;
+}
+
+.cc {
+  font-weight: bold;
+  background-color: purple;
+  color: white;
+}
+
+.mage {
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+}
+
+.pranged {
+  font-weight: bold;
+  background-color: #ee9a4d;
+  color: white;
+}
+
+.healer {
+  font-weight: bold;
+  background-color: green;
+  color: white;
+}
+
+.melee {
+  font-weight: bold;
+  background-color: red;
+  color: white;
+}
+
+.sc {
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.unknown {
+  font-weight: bold;
+  background-color: white;
+  color: magenta;
+}
+
+.comp {
+  font-size: 1rem;
+}

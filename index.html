@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--===== Font =====-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--===== Styles =====-->
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <!--===== Jquery =====-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <title>War Sorter</title>
+  </head>
+  <body>
+    <div id="nav">
+      <ul>
+        <li id="addGroup">Add Group</li>
+        <li id="removeGroup">Remove Group</li>
+        <a href="#loadModal" rel="modal:open">
+          <li id="load">Load Players</li></a
+        >
+        <a href="#tempModal" rel="modal:open">
+          <li id="temp">Add Temporary</li></a
+        >
+      </ul>
+    </div>
+    <div class="wrapper">
+      <div class="defaultList">
+        <div class="header p">Players</div>
+        <ul id="groupStart"></ul>
+      </div>
+
+      <!--===== Load Players Modal =====-->
+      <div id="loadModal" class="modal">
+        <input type="checkbox" id="pt" name="pt" value="PT" />
+        <label for="pt"> Preemption Tour</label><br />
+
+        <input type="checkbox" id="dh" name="dh" value="DH" />
+        <label for="dh">Kentucky Fried Covenant</label><br />
+
+        <input type="checkbox" id="et" name="et" value="ET" />
+        <label for="et">Enemy Team</label><br />
+
+        <input type="checkbox" id="hlx" name="hlx" value="HLX" />
+        <label for="hlx">Helixx</label><br />
+
+        <input type="checkbox" id="kfc" name="kfc" value="KFC" />
+        <label for="kfc">Kentucky Fried Covenant</label><br />
+
+        <input type="checkbox" id="sgm" name="sgm" value="SGM" />
+        <label for="sgm">Sugmah</label><br />
+
+        <input type="checkbox" id="mercs" name="mercs" value="M" />
+        <label for="mercs">Mercenaries</label><br />
+
+        <input type="checkbox" id="solo" name="solo" value="SOLO" />
+        <label for="solo">Solo's</label><br />
+      </div>
+
+      <!--===== Temp Add Modal =====-->
+      <div id="tempModal" class="modal">
+        <label for="tempName">Name:</label>
+        <input type="text" id="tempName" required />
+
+        <label for="tempRole">Role:</label>
+        <select name="tempRole" id="tempRole">
+          <option value="healer">Healer</option>
+          <option value="cc">CC</option>
+          <option value="mage">Mage</option>
+          <option value="tank">Tank</option>
+          <option value="pranged">Physical Ranged</option>
+          <option value="unknown">Unknown</option>
+        </select>
+
+        <label for="tempComp">Company:</label>
+        <select name="tempComp" id="tempComp">
+          <option value="PT">Preemption Tour</option>
+          <option value="DH">DarkHeart</option>
+          <option value="ET">EnemyTeam</option>
+          <option value="HLX">Helixx</option>
+          <option value="KFC">Kentucky Fried Covenant</option>
+          <option value="MOS">Messengers Of the Sun</option>
+          <option value="SGM">Sugmuh</option>
+          <option value="SOLO">*Solo Player*</option>
+          <option value="M">*Mercenary*</option>
+        </select>
+
+        <input id="addTemp" type="button" value="ADD" />
+      </div>
+    </div>
+
+    <!--===== Jquery Modal =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+    <!--===== SORTABLE JS =====-->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

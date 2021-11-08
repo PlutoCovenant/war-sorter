@@ -1,0 +1,202 @@
+{
+  "players": [
+    {
+      "name": "Invia",
+      "role": "healer",
+      "shotcall": false,
+      "company": "PT"
+    },
+    {
+      "name": "Drlol",
+      "role": "cc",
+      "shotcall": false,
+      "company": "PT"
+    },
+    {
+      "name": "Erpes",
+      "role": "mage",
+      "shotcall": false,
+      "company": "PT"
+    },
+    {
+      "name": "Bnat",
+      "role": "tank",
+      "shotcall": true,
+      "company": "PT"
+    },
+    {
+      "name": "Issvc",
+      "role": "melee",
+      "shotcall": false,
+      "company": "PT"
+    },
+    {
+      "name": "Demi",
+      "role": "mage",
+      "shotcall": false,
+      "company": "PT"
+    },
+    {
+      "name": "Heisen",
+      "role": "pranged",
+      "shotcall": false,
+      "company": "PT"
+    },
+    {
+      "name": "Alexns",
+      "role": "cc",
+      "shotcall": false,
+      "company": "PT"
+    },
+    {
+      "name": "Panthir",
+      "role": "mage",
+      "shotcall": true,
+      "company": "DH"
+    },
+    {
+      "name": "DidEm",
+      "role": "healer",
+      "shotcall": false,
+      "company": "DH"
+    },
+    {
+      "name": "Khroe",
+      "role": "mage",
+      "shotcall": false,
+      "company": "DH"
+    },
+    {
+      "name": "Tbao",
+      "role": "unknown",
+      "shotcall": false,
+      "company": "DH"
+    },
+    {
+      "name": "KevinEthanLee",
+      "role": "healer",
+      "shotcall": false,
+      "company": "DH"
+    },
+    {
+      "name": "Gannicuss",
+      "role": "melee",
+      "shotcall": false,
+      "company": "ET"
+    },
+    {
+      "name": "Scary",
+      "role": "mage",
+      "shotcall": false,
+      "company": "ET"
+    },
+    {
+      "name": "nadog",
+      "role": "mage",
+      "shotcall": false,
+      "company": "ET"
+    },
+    {
+      "name": "Casterial",
+      "role": "pranged",
+      "shotcall": false,
+      "company": "ET"
+    },
+    {
+      "name": "bazbar",
+      "role": "healer",
+      "shotcall": false,
+      "company": "ET"
+    },
+    {
+      "name": "Steadyhands",
+      "role": "melee",
+      "shotcall": false,
+      "company": "HLX"
+    },
+    {
+      "name": "8bit",
+      "role": "pranged",
+      "shotcall": false,
+      "company": "HLX"
+    },
+    {
+      "name": "lowned",
+      "role": "healer",
+      "shotcall": false,
+      "company": "HLX"
+    },
+    {
+      "name": "robert",
+      "role": "healer",
+      "shotcall": false,
+      "company": "HLX"
+    },
+    {
+      "name": "Kent",
+      "role": "mage",
+      "shotcall": true,
+      "company": "KFC"
+    },
+    {
+      "name": "Mayo",
+      "role": "unknown",
+      "shotcall": false,
+      "company": "KFC"
+    },
+    {
+      "name": "oz",
+      "role": "melee",
+      "shotcall": false,
+      "company": "KFC"
+    },
+    {
+      "name": "kara",
+      "role": "melee",
+      "shotcall": false,
+      "company": "KFC"
+    },
+    {
+      "name": "dududuududud",
+      "role": "unknown",
+      "shotcall": false,
+      "company": "M"
+    },
+    {
+      "name": "concerns",
+      "role": "mage",
+      "shotcall": false,
+      "company": "M"
+    },
+    {
+      "name": "gumshews",
+      "role": "dps",
+      "shotcall": false,
+      "company": "MOS"
+    },
+    {
+      "name": "Clirpy",
+      "role": "healer",
+      "shotcall": false,
+      "company": "SOLO"
+    },
+    {
+      "name": "Tmeister",
+      "role": "mage",
+      "shotcall": false,
+      "company": "SGM"
+    },
+    {
+      "name": "Twinky",
+      "role": "tank",
+      "shotcall": false,
+      "company": "SGM"
+    },
+    {
+      "name": "tearona",
+      "role": "healer",
+      "shotcall": false,
+      "company": "SGM"
+    }
+  ]
+}
