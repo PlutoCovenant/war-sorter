@@ -39,7 +39,6 @@ $("#addGroup").click(function () {
 //Remove last group (If empty) on click
 $("#removeGroup").click(function () {
   var groups = $(".list").length;
-  console.log("Test:", $(".list").last().text().length);
   if ($(".list").last().text().length > 20) {
     alert("Remove Player from last group.");
   } else if (groups > 0) {
