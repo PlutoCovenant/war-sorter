@@ -2,7 +2,7 @@
 var playerList = [];
 
 //Fetch list of players
-$.getJSON("https://api.npoint.io/88af6ef849c2f545f1d9", function (data) {
+$.getJSON("https://plutocovenant.github.io/war-sorter/players.json", function (data) {
   data.players.forEach(function (player) {
     playerList.push(player);
   });
